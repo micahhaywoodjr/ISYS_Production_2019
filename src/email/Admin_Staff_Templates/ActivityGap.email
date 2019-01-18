@@ -1,0 +1,21 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p><font><font face="Verdana, Helvetica, sans-serif" size="4"><font style="color: rgb(0, 0, 0);">Dear&nbsp;</font><font>{!Opportunity.OwnerFirstName},&nbsp;</font></font></font></p><p style="color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="4"><br></font></p><p style="color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="4">There is a gap in activity on
+this report from [date-date].</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="4">&nbsp;</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="4">As a
+friendly reminder, in order to provide high
+quality, proactive case management it is important to make
+contact with the Employee and/or appropriate party, even when there is no contact allowed, at least once every
+two weeks.<o:p></o:p></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="4">&nbsp;</font></p><p style="color: rgb(0, 0, 0);">
+
+
+
+
+
+
+
+</p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="4">Please reach
+out to your supervisor if you would like to discuss further.<o:p></o:p></font></p>
+<p style="color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="4"><br><font>Thank you,</font></font></p><p style="color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="4"><font><br></font></font></p><p style="color: rgb(0, 0, 0);"><em style="background-color: rgb(255, 255, 255);">{!User.FirstName}&nbsp;&nbsp;{!User.LastName}</em></p>]]></td>
+</tr>
+</table>

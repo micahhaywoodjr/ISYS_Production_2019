@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Use when enclosures are missing.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>Missing Enclosures</name>
+    <style>freeForm</style>
+    <subject>Missing Enclosures {!Case.Employee__c}, # {!Case.CaseNumber}</subject>
+    <textOnly>Dear {!Case.OwnerFirstName},
+
+The following enclosures are missing for the report dated (insert Service Date Thru) on the above noted Case:
+
+
+(LIST MISSING ENCLOSURES)
+
+
+If the enclosures are not received within 48 hours of the request, the report will be distributed without them and your billing time for the activity will have to be deducted.
+
+Please FORWARD this email to reports@isyscm.com notifying us that the enclosures have been uploaded and that we can proceed with processing your report.
+
+We appreciate your prompt response and your cooperation.
+
+Thank you.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

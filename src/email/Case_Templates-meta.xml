@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Case Templates</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <role>AdminStaffMedicalQualityAssurance</role>
+        <role>AdminStaffMedicalServices</role>
+        <role>GMMedicalServices</role>
+        <role>ManagerCustomerRelations</role>
+        <role>President</role>
+        <role>SalesSupportStaff</role>
+    </sharedTo>
+</EmailFolder>

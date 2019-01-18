@@ -1,0 +1,38 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P><IMG border=0 alt="" align=left src="/servlet/servlet.ImageServer?id=01580000001366t&amp;oid=00D80000000biiV"></P>
+<P><FONT size=1>&nbsp;</FONT></P>
+<P><EM><FONT size=1></FONT></EM>&nbsp;</P>
+<P><EM><FONT size=1></FONT></EM>&nbsp;</P>
+<P><EM><FONT size=1></FONT></EM>&nbsp;</P>
+<P><EM><FONT size=1></FONT></EM>&nbsp;</P>
+<P><EM><FONT size=1></FONT></EM>&nbsp;</P>
+<P><EM><FONT size=1></FONT></EM>&nbsp;</P>
+<P><EM><FONT size=1></FONT></EM>&nbsp;</P>
+<P><EM><FONT size=1></FONT></EM>&nbsp;</P>
+<P><EM><FONT size=1></FONT></EM>&nbsp;</P>
+<P><EM></EM>&nbsp;&nbsp;</P>
+<P><EM>California Labor Code Section 3762 prohibits the sharing of certain medical information to the Employer <BR></EM></P>
+<P><BR><STRONG>Employee:</STRONG>&nbsp; {!Case.Employee__c}</P>
+<P>&nbsp;</P>
+<P>Last Evaluation Date and Time: <BR><BR>Next Evaluation Date and Time: <BR><BR>Name of Treating Physician: <BR><BR>Causation addressed by Physician? (<EM><FONT color=#000000>Yes or No</FONT></EM>): <BR>If yes, is it a work related condition? (<EM>Yes or No</EM>): <BR><BR>Accepted condition? (<EM>Yes, No or Undetermined</EM>): <BR><BR>Is the Employee motivated to return to work? (<EM>Yes or No</EM>): <BR><BR>Non-industrial factors interfering with progression? (<EM>Yes, No or Undetermined</EM>)&nbsp;<BR><BR>Work Status: <BR><BR>Anticipated date of Maximum Medical Improvement (Permanent &amp; Stationary): <BR><BR>Diagnosis:</P>
+<P>&nbsp;</P>
+<P>Denied body part(s)/medical condition(s):</P>
+<P>&nbsp;</P>
+<P>Resolved body part(s)/medical condition(s) &amp; effective date(s):&nbsp;<BR><BR>Treatment Plan (<EM>indicate Yes or No for each of the following</EM>): <BR><BR>Medication prescribed? <BR><BR>Physical Therapy? <BR><BR>Occupational Therapy? <BR><BR>Durable Medical Equipment? <BR><BR>Diagnostic Studies? <BR>If yes, is it authorized? <BR><BR>Evaluations (IME, FCE etc)? <BR>If yes, is it authorized? <BR><BR>Surgery contemplated?: <BR>If yes, provide date: <BR><BR>List Case Management activities that are&nbsp;progressing the file towards resolution: <BR><BR><BR>Thank You.</P>
+<P>&nbsp;</P>
+<P><EM><STRONG>{!User.FirstName}&nbsp;&nbsp;{!User.LastName}, {!User.Department}</STRONG></EM></P>
+<P>{!User.Title}</P>
+<P><STRONG>{!User.Email}</STRONG></P>
+<P>2601 Saturn St, Suite 302</P>
+<P>Brea CA&nbsp; 92821</P>
+<P>Corporate Office:&nbsp; (800) 992-8100</P>
+<P><STRONG>{!User.Phone}</STRONG></P>
+<P>Fax:&nbsp; (877) 992-0191</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-FAMILY: 'Arial','sans-serif'; COLOR: #365f91; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes"><FONT color=#000099 face=Verdana,Helvetica,Sans-Serif>ISYS is an organization where people with big minds, big hearts, lots of spirit and good character work wisely and cooperatively to achieve constructive outcomes on behalf of our customers and clients.</FONT></SPAN></P>
+<P><SPAN style="FONT-FAMILY: 'Arial','sans-serif'; COLOR: #365f91; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes"></SPAN><FONT color=#000099 size=2 face=Verdana,Helvetica,Sans-Serif>&nbsp;</FONT></P>
+<P><FONT color=#000099 size=2 face=Verdana,Helvetica,Sans-Serif>ISYS is a leading provider of Medical Case Management, Life Care Planning, Ergonomic Workplace Evaluations and Medical Seminars throughout California, Nevada and Arizona. Please visit our website at: isyscm.com <BR></FONT>&nbsp;<BR><FONT size=1 face="Times New Roman,Times,Serif">PRIVILEGED AND CONFIDENTIAL: <BR>This communication, including attachments, is for the exclusive use of the intended addressee and may contain proprietary, confidential and/or privileged information. This communication is protected by the trade secret privilege, the Electronic Communications Privacy Act (ECPA). While various other legal protections apply, specifically, communications involving patient medical information and/or related materials is also protected by federal and state (HIPPA) regulations. Any use, copying, disclosure, dissemination or distribution of confidential and/or privileged information is not permitted and would also be very impolite. If you are not the intended recipient, I apologize for the error and request that you please notify me at your earliest convenience by return e-mail; and, that you delete this communication and destroy all copies. Thank you</FONT></P>]]></td>
+</tr>
+</table>

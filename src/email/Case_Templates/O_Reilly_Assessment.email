@@ -1,0 +1,22 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P>Hello {!Case.OwnerFirstName},</P>
+<P>&nbsp;</P>
+<P>This is a courtesy notification regarding your new Gallagher Bassett referral on {!Case.Employee__c} for employer O'Reilly Auto Parts.</P>
+<P>&nbsp;</P>
+<P>Complete and email the&nbsp;Nurse Case Management Projection Form&nbsp;to your Supervisor within 21 days of this referral. </P>
+<P>&nbsp;</P>
+<P>Please follow the&nbsp;Nurse Case Management Projection Form Instructions to complete this form. </P>
+<P>&nbsp;</P>
+<P>Both documents are located on the Portal.&nbsp;</P>
+<P>&nbsp;</P>
+<P>Contact your&nbsp;Supervisor with questions.</P>
+<P>&nbsp;&nbsp;&nbsp;</P>
+<P>Thank you,&nbsp;</P>
+<P>&nbsp;</P>
+<P>{!User.FirstName} </P>
+<P>&nbsp;</P>
+<P>cc:&nbsp; {!Case.Supervised_by__c}&nbsp; </P>]]></td>
+</tr>
+</table>

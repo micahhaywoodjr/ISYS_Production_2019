@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Service Delivery Liaison email to CM Manager</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>Kudos</name>
+    <style>freeForm</style>
+    <subject>Kudos - {!Case.EmployeeName__c}</subject>
+    <textOnly>EE Name: {!Case.Employee_Case_Trakker__c}
+Med Case#: {!Case.CaseNumberMedMgmt__c}
+{!Case.Link}
+
+
+ISYS received kudos regarding the NCM listed above.
+
+Please go to Case # {!Case.CaseNumber} to review the details of this feedback.
+
+Thank you,
+
+{!User.FirstName} {!User.LastName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

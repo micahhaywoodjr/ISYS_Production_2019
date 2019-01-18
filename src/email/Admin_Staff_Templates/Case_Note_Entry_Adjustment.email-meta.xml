@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use when an adjustment has been made to a case note entry.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>Case Note Entry Adjustment</name>
+    <style>freeForm</style>
+    <subject>Case Note Entry Adjustment - {!Case.Employee__c}, # {!Case.CaseNumber}</subject>
+    <textOnly>Dear {!Case.OwnerFirstName},
+
+The following Case Note Entry(ies) from report dated [ADMIN INSERT SERVICE DATE THRU] was adjusted and/or removed for the following reason(s):
+
+[ADMIN:
+
+LIST ADJUSTED AND/OR REMOVED CASE NOTE ENTRY(IES); PROVIDE DATE OF ENTRY, CODE, DESCRIPTION, ORIGINAL INCREMENT AMOUNT WITH ADJUSTED AMOUNT,THE REASON FOR THE CHANGE AND THE TOTAL AMOUNT ADJUSTED.]
+
+Retain this email for reference.
+
+Please contact your Supervisor if you have any questions or need further clarification.
+
+Thank you,
+
+[INSERT NAME OF ADMIN]</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Employer Update Form</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISYS_Logo_Wide_Rev1</letterhead>
+    <name>Employer Update HTML</name>
+    <style>freeForm</style>
+    <subject>{!Case.Employer__c} / Update for: {!Case.Employee__c}, {!Case.Claim_Number__c}</subject>
+    <textOnly>California Labor Code Section 3762 prohibits the sharing of certain medical information to the Employer 
+
+Employee:  {!Case.Employee__c}
+ 
+Last Evaluation Date: 
+
+Next Evaluation Date: 
+
+Name of Treating Physician: 
+
+Causation addressed by Physician?: 
+If yes, is it a work related condition?: 
+
+Accepted condition?: 
+
+Is the Employee motivated to return to work?: 
+
+Non-industrial factors interfering with progression? 
+
+Work Status: 
+
+Anticipated date of Maximum Medical Improvement (Permanent &amp; Stationary): 
+
+Diagnosis: 
+
+Treatment Plan: 
+
+Medication prescribed? 
+
+Physical Therapy? 
+
+Occupational Therapy? 
+
+Durable Medical Equipment? 
+
+Diagnostic Studies? 
+If yes, is it authorized? 
+
+Evaluations (IME, FCE etc)? 
+If yes, is it authorized? 
+
+Surgery contemplated?: 
+If yes, provide date: indicate date 
+
+What are you doing to assist with pushing this claim to resolution? 
+
+Thank You.
+ 
+{!User.FirstName}  {!User.LastName}, {!User.Department}
+{!User.Title}
+{!User.Email}
+6800 Orangethorpe Avenue Suite D
+Buena Park CA  90620
+Corporate Office:  (800) 992-8100
+{!User.Phone}
+Fax:  (877) 992-0191
+ 
+ISYS is an organization where people with big minds, big hearts, lots of spirit and good character work wisely and cooperatively to achieve constructive outcomes on behalf of our customers and clients.
+ 
+ISYS is a leading provider of Medical Case Management, Life Care Planning, Ergonomic Workplace Evaluations and Medical Seminars throughout California, Nevada and Arizona. Please visit our website at: isyscm.com 
+ 
+PRIVILEGED AND CONFIDENTIAL: 
+This communication, including attachments, is for the exclusive use of the intended addressee and may contain proprietary, confidential and/or privileged information. This communication is protected by the trade secret privilege, the Electronic Communications Privacy Act (ECPA). While various other legal protections apply, specifically, communications involving patient medical information and/or related materials is also protected by federal and state (HIPPA) regulations. Any use, copying, disclosure, dissemination or distribution of confidential and/or privileged information is not permitted and would also be very impolite. If you are not the intended recipient, I apologize for the error and request that you please notify me at your earliest convenience by return e-mail; and, that you delete this communication and destroy all copies. Thank you</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

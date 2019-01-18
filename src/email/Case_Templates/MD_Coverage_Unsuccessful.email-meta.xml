@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to NCM that an appointment has not been covered.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>MD Coverage Unsuccessful</name>
+    <style>freeForm</style>
+    <subject>MD Coverage Request Unsuccessful - {!Case.CaseNumber}, {!Case.Employee_Case_Trakker__c}</subject>
+    <textOnly>Hello {!Case.OwnerFirstName},
+ 
+We were unable to coordinate coverage for the posted appointment for
+{!Case.Employee__c}.  
+ 
+MD:  
+  
+Please follow up telephonically to obtain current medical status and treatment plan.
+ 
+Thank you.  
+ 
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

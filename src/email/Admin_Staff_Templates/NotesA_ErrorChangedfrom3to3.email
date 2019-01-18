@@ -1,0 +1,1 @@
+The following A notes is set to error / {!Opportunity.Process_A__c} on report {!Opportunity.Id} that was approved at {!Opportunity.A_Note_Approval_Date_Time__c}

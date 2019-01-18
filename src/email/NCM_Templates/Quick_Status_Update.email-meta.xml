@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>QSU Wide Logo Format</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISYS_Logo_Wide_Rev1</letterhead>
+    <name>Quick Status Update</name>
+    <style>freeForm</style>
+    <subject>ISYS Quick Update for: {!Case.Employee__c}, {!Case.Claim_Number__c}</subject>
+    <textOnly>QUICK STATUS UPDATE --Complete Report to Follow
+ 
+DATE:    
+                              
+TO:   {!Case.Contact}                           
+COMPANY:  {!Case.Account} 
+
+  
+FROM:  {!User.FirstName} {!User.LastName}, {!User.Department}       CONTACT #:    {!User.Phone}
+            Medical Case Manager
+                
+EMPLOYEE:   {!Case.Employee__c}           CLAIM NUMBER:   {!Case.Claim_Number__c}   
+            
+TOTAL # OF PAGES, INCLUDING THIS PAGE:                   ATTACHMENT(S):        YES       NO
+ 
+ 
+ 
+(check all that is applied)
+   General update         
+   Result of employee contact/visit       
+   Result of med. provider contact/visit
+ 
+ 
+Employee’s current status:     Improving      Improving but Slow      Stable       Worsening      Unchanged
+                     
+Target date of P&amp;S/MMI:      
+ 
+ 
+Summary:        
+        
+ 
+Current disability status: 
+           
+Remains on TTD                  Next MD appt. date:       time: 
+ 
+Return to work status:      modified      U&amp;C
+          Work restrictions: (see attached work slip)  
+ 
+                                                               
+CLAIMS ALERT
+ 
+Authorization requests for medical treatment or testing: (see attached prescription)
+request made by:              
+contact number:                
+type(s) of requests:
+ 
+case management recommendation:       
+ 
+Other:       
+ </textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

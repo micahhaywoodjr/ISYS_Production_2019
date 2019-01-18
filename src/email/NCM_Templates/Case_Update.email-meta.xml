@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Information Update Form</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>Case Update</name>
+    <style>freeForm</style>
+    <subject>Case {!Case.CaseNumber} {!Case.Employee__c} Update</subject>
+    <textOnly>{!Today}
+
+
+Nurse Case Manager: {!Case.OwnerFullName}
+
+
+Employee: {!Case.Employee__c} CMA Case Number: {!Case.CaseNumber}
+
+Account: {!Case.Account}
+
+
+Reason for Transfer:
+
+
+Authorized by:
+
+
+~~~~~~~~~~~~~~~~
+
+
+Current Diagnosis: {!Case.Current_Diagnosis__c}
+
+
+
+Last Appt Date/Time:
+
+MD Name:
+
+
+Next Appt Date/Time:
+
+MD Name:
+
+
+
+Next Appt not scheduled because
+
+
+
+~~~~~~~~~~~~~~~~
+
+
+Pending Diagnostics and/or Surgeries:
+
+
+Treatment Plans:
+
+
+Additional Comments:</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

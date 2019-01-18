@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <fullName>Case_QC</fullName>
+        <active>true</active>
+        <businessProcess>Cases-QC</businessProcess>
+        <description>Records that handle all QC Dept kudos and errors</description>
+        <label>Case-QC</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Case Trakker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pick-up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Routine</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Claim denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Referred In Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has reached P %26 S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to U %26 C work</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to alternative wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee is deceased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee returned to perm %26 modified wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interruption of services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Analysis Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from attorney</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medical or Vocational non-feasibility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Per claims representative%27s request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QC - closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful Completion of assignment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>CasesClosedReferrals</fullName>
+        <active>true</active>
+        <businessProcess>Cases-Closed Referrals</businessProcess>
+        <label>Cases-Closed Referrals</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Case Trakker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pick-up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Routine</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Claim denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has reached P %26 S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to U %26 C work</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to alternative wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee is deceased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee returned to perm %26 modified wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interruption of services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Analysis Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from attorney</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medical or Vocational non-feasibility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Per claims representative%27s request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful Completion of assignment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>CasesCustomers</fullName>
+        <active>true</active>
+        <businessProcess>Cases-Customers</businessProcess>
+        <label>Cases-Customers</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Case Trakker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pick-up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Routine</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Claim denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has reached P %26 S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to U %26 C work</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to alternative wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee is deceased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee returned to perm %26 modified wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interruption of services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Analysis Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from attorney</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medical or Vocational non-feasibility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Per claims representative%27s request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful Completion of assignment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>CasesReferrals</fullName>
+        <active>true</active>
+        <businessProcess>Cases-Referrals</businessProcess>
+        <label>Cases-Referrals</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Case Trakker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pick-up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Routine</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Claim denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Referred In Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has reached P %26 S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to U %26 C work</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to alternative wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee is deceased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee returned to perm %26 modified wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interruption of services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Analysis Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from attorney</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medical or Vocational non-feasibility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Per claims representative%27s request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful Completion of assignment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Cases_CSL</fullName>
+        <active>true</active>
+        <businessProcess>Cases-Customers</businessProcess>
+        <label>Cases - CSL</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Case Trakker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pick-up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Routine</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Claim denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Referred In Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has reached P %26 S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to U %26 C work</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to alternative wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee is deceased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee returned to perm %26 modified wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT - issue resolved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interruption of services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Analysis Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from attorney</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medical or Vocational non-feasibility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Per claims representative%27s request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QC - closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful Completion of assignment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Cases_IT</fullName>
+        <active>true</active>
+        <businessProcess>Cases-IT</businessProcess>
+        <description>IT ticketing system</description>
+        <label>Cases-IT</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Case Trakker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pick-up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Routine</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Claim denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Referred In Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has reached P %26 S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to U %26 C work</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to alternative wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee is deceased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee returned to perm %26 modified wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Human Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT - issue resolved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interruption of services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Analysis Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from attorney</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medical or Vocational non-feasibility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Per claims representative%27s request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful Completion of assignment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Cases_Reopen_Referrals</fullName>
+        <active>true</active>
+        <businessProcess>Cases-Re-Open Referrals</businessProcess>
+        <label>Cases-Reopen Referrals</label>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Case Trakker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pick-up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Routine</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Claim denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has reached P %26 S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to U %26 C work</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee has returned to alternative wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee is deceased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee returned to perm %26 modified wk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interruption of services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Analysis Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from attorney</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of cooperation from employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medical or Vocational non-feasibility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Per claims representative%27s request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful Completion of assignment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

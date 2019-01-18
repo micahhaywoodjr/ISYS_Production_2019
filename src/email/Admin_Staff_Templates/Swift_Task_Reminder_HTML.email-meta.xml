@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Swift Courtesy Task Reminder to Employer</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISYS_The_Value_of_Excellence</letterhead>
+    <name>Swift Task Reminder HTML</name>
+    <style>freeForm</style>
+    <subject>Swift MD Visit Reminder {!Case.Employee__c}, # {!Case.CaseNumber}</subject>
+    <textOnly>Dear {!Case.OwnerFirstName}, 
+
+This is a reminder you have an MD visit scheduled on DATE for the above noted Case Number with {!Case.Employee__c}. 
+
+Per Swift protocols, please ensure 24-hour updates and reporting. 
+
+Thank you.
+ 
+{!User.FirstName}  {!User.LastName}
+{!User.Title}
+{!User.Email}
+6800 Orangethorpe Avenue Suite D
+Buena Park CA  90620
+Corporate Office:  (800) 992-8100
+Fax:  (877) 992-0191
+ 
+ISYS is an organization where people with big minds, big hearts, lots of spirit and good character work wisely and cooperatively to achieve constructive outcomes on behalf of our customers and clients.
+ 
+ISYS is a leading provider of Medical Case Management, Life Care Planning, Ergonomic Workplace Evaluations and Medical Seminars throughout California, Nevada and Arizona. Please visit our website at: isyscm.com 
+ 
+PRIVILEGED AND CONFIDENTIAL: 
+This communication, including attachments, is for the exclusive use of the intended addressee and may contain proprietary, confidential and/or privileged information. This communication is protected by the trade secret privilege, the Electronic Communications Privacy Act (ECPA). While various other legal protections apply, specifically, communications involving patient medical information and/or related materials is also protected by federal and state (HIPPA) regulations. Any use, copying, disclosure, dissemination or distribution of confidential and/or privileged information is not permitted and would also be very impolite. If you are not the intended recipient, I apologize for the error and request that you please notify me at your earliest convenience by return e-mail; and, that you delete this communication and destroy all copies. Thank you</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

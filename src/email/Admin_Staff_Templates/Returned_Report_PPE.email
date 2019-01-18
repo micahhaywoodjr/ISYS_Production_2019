@@ -1,0 +1,15 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p><font face="Arial, sans-serif" size="4"><font style="color: rgb(0, 0, 0);"><font style="color: rgb(0, 0, 0);">Dear {!Case.OwnerFirstName},&nbsp;<br><br></font><font style="color: rgb(0, 0, 0);">The following Case Report dated&nbsp;</font></font>{Insert Service Date Thru},<span style="color: rgb(0, 0, 0);">&nbsp;is being returned for the following reason(s):&nbsp;</span></font></p>
+<p style="color: rgb(0, 0, 0);"><font size="4" face="Arial, sans-serif">&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="4">(INDICATE REASON(S) )</font></p><font face="Arial,Sans-Serif" style="color: rgb(0, 0, 0);" size="4">
+</font><p style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="4">&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);"><span style="COLOR: #1f497d"><font color="#000000"><font face="Arial,Sans-Serif" size="4">Please make the appropriate changes and resubmit the report within 24hours.</font></font></span></p><p style="color: rgb(0, 0, 0);"><span style="COLOR: #1f497d"><font color="#000000"><font face="Arial,Sans-Serif" size="4"><br></font></font></span></p><p style="color: rgb(0, 0, 0);"><span style="COLOR: #1f497d"><font color="#000000"><font face="Arial,Sans-Serif" size="4">Please note that this report will not be included in this pay period.</font></font></span></p>
+<p style="color: rgb(0, 0, 0);"><font size="4" face="Arial, sans-serif"><span style="COLOR: #1f497d"><font color="#000000"></font></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);"><span style="COLOR: #1f497d"><font color="#000000" size="4" face="Arial, sans-serif">If you have any questions or concerns, please contact your Supervisor.</font></span></p>
+<p style="color: rgb(0, 0, 0);"><font size="4" face="Arial, sans-serif"><br>Thank you,</font></p><p style="color: rgb(0, 0, 0);"><font size="4" face="Arial, sans-serif"><br></font></p><p style="color: rgb(0, 0, 0);"><em style="background-color: rgb(255, 255, 255);">{!User.FirstName}&nbsp;&nbsp;{!User.LastName}</em></p>
+<p style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="4">&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="FONT-FAMILY: 'Arial','sans-serif'; COLOR: #365f91; FONT-SIZE: 10pt; mso-no-proof: yes; mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"></span><font color="#000099" size="2" face="Verdana,Helvetica,Sans-Serif">&nbsp;</font></p>]]></td>
+</tr>
+</table>

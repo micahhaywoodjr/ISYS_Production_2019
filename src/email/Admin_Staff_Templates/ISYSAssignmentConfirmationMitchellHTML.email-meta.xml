@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>MITCHELL - ISYS Assignment Confirmation with ISYS Logo Template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>ISYS_The_Value_of_Excellence</letterhead>
+    <name>ISYS Assignment Confirmation_Mitchell  HTML</name>
+    <style>freeForm</style>
+    <subject>ISYS Assignment Confirmation {!Case.Employee__c}, {!Case.Claim_Number__c}</subject>
+    <textOnly>ISYS CASE ASSIGNMENT NOTIFICATION
+
+
+Date:  {!Case.Referral_Date__c}
+
+
+Attention:  {!Case.Contact}
+
+Company: {!Account.Name}
+Email:  {!Contact.Email}
+
+
+Employee:   {!Case.Employee__c}
+Claim Number:   {!Case.Claim_Number__c}
+Date of Injury:  {!Case.Date_of_injury_MM_DD_YYYY__c}
+Diagnosis:  {!Case.Current_Diagnosis__c}
+
+
+Purpose for Referral:  {!Case.QB_Service_Item__c}
+
+
+Case Assigned to:  {!Case.OwnerFullName},
+
+Contact Number:   {!Case.OwnerPhone}
+
+Email:  {!Case.OwnerEmail}
+
+
+
+ESTIMATED TRAVEL TIME PER APPT/VISIT:
+
+(Cases are typically assigned to the Case Manager closest to the primary treating physician; time noted is an estimate and is not guaranteed.)
+
+
+
+Account Rep:  {!Account.WISAFI__Sales_Rep__c}
+Contact Number:
+Email:
+
+
+Thank you.
+
+
+{!User.FirstName}  {!User.LastName}
+
+{!User.Title}
+
+{!User.Email}
+
+2601 Saturn Street Suite 300
+
+Brea CA  92821
+
+Corporate Office:  (800) 992-8100
+
+Fax:  (877) 992-0191
+
+
+ISYS is an organization where people with big minds, big hearts, lots of spirit and good character work wisely and cooperatively to achieve constructive outcomes on behalf of our customers and clients.
+
+
+ISYS is a leading provider of Medical Case Management, Life Care Planning, Ergonomic Workplace Evaluations and Medical Seminars throughout California, Nevada and Arizona. Please visit our website at: isyscm.com
+
+PRIVILEGED AND CONFIDENTIAL:
+This communication, including attachments, is for the exclusive use of the intended addressee and may contain proprietary, confidential and/or privileged information. This communication is protected by the trade secret privilege, the Electronic Communications Privacy Act (ECPA). While various other legal protections apply, specifically, communications involving patient medical information and/or related materials is also protected by federal and state (HIPAA) regulations. Any use, copying, disclosure, dissemination or distribution of confidential and/or privileged information is not permitted and would also be very impolite. If you are not the intended recipient, I apologize for the error and request that you please notify me at your earliest convenience by return e-mail; and, that you delete this communication and destroy all copies. Thank you</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

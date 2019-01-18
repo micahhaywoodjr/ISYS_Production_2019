@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>NotesB Error Changed from 1 to 2</name>
+    <style>none</style>
+    <subject>Notes B error Process B Changed from 1 to 2</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

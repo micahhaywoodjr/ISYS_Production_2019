@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CM Supervisor email to SDL advising input was obtained</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>CM and Supervisor Input completed</name>
+    <style>freeForm</style>
+    <subject>{!Case.EmployeeName__c} and CM Supervisor Incident Input</subject>
+    <textOnly>EE Name: {!Case.Employee_Case_Trakker__c}
+Med Case#: {!Case.CaseNumberMedMgmt__c}
+{!Case.Link}
+
+Input was obtained from the Case Manager regarding this incident and ready for review.
+
+I have also provided my assessment and recommendation.
+
+Please refer to Case # {!Case.CaseNumber} to review the details.
+
+Thank you,
+
+{!User.FirstName} {!User.LastName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

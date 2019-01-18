@@ -1,0 +1,18 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P>Dear {!Case.OwnerFirstName}, <BR><BR>This is a reminder you have an MD visit scheduled for&nbsp;<FONT color=#ff0000>DATE </FONT>on the above noted case number with {!Case.Employee__c}. <BR><BR>Per Sentry protocols, please ensure 24-hour updates and reporting. <BR><BR>Additionally, please note your conversation with the Claims Professional and whether or not authorization to send Employer Updates was received by indicating in the "Employer Comments" box in the Employer Section on the Olive Green Page. (Please include the date of authorization). <BR><BR>Thank you.</P>
+<P>&nbsp;</P>
+<P><EM>{!User.FirstName}&nbsp;&nbsp;{!User.LastName}</EM></P>
+<P>{!User.Title}</P>
+<P>{!User.Email}</P>
+<P>6800 Orangethorpe Avenue Suite D</P>
+<P>Buena Park CA&nbsp; 90620</P>
+<P>Corporate Office:&nbsp; (800) 992-8100</P>
+<P>Fax:&nbsp; (877) 992-0191</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-FAMILY: 'Arial','sans-serif'; COLOR: #365f91; FONT-SIZE: 10pt; mso-no-proof: yes; mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><FONT color=#000099 face=Verdana,Helvetica,Sans-Serif>ISYS is an organization where people with big minds, big hearts, lots of spirit and good character work wisely and cooperatively to achieve constructive outcomes on behalf of our customers and clients.</FONT></SPAN></P>
+<P><SPAN style="FONT-FAMILY: 'Arial','sans-serif'; COLOR: #365f91; FONT-SIZE: 10pt; mso-no-proof: yes; mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"></SPAN><FONT color=#000099 size=2 face=Verdana,Helvetica,Sans-Serif>&nbsp;</FONT></P>
+<P><FONT color=#000099 size=2 face=Verdana,Helvetica,Sans-Serif>ISYS is a leading provider of Medical Case Management, Life Care Planning, Ergonomic Workplace Evaluations and Medical Seminars throughout California, Nevada and Arizona. Please visit our website at: isyscm.com <BR></FONT>&nbsp;<BR><FONT size=1 face="Times New Roman,Times,Serif">PRIVILEGED AND CONFIDENTIAL: <BR>This communication, including attachments, is for the exclusive use of the intended addressee and may contain proprietary, confidential and/or privileged information. This communication is protected by the trade secret privilege, the Electronic Communications Privacy Act (ECPA). While various other legal protections apply, specifically, communications involving patient medical information and/or related materials is also protected by federal and state (HIPPA) regulations. Any use, copying, disclosure, dissemination or distribution of confidential and/or privileged information is not permitted and would also be very impolite. If you are not the intended recipient, I apologize for the error and request that you please notify me at your earliest convenience by return e-mail; and, that you delete this communication and destroy all copies. Thank you</FONT></P>]]></td>
+</tr>
+</table>

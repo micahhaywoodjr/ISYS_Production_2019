@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use when NCM has a gap in their case note entries.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>Activity Gap</name>
+    <style>freeForm</style>
+    <subject>Activity Gap - Report #{!Opportunity.Related_Case__c} / {!Opportunity.Employee__c}</subject>
+    <textOnly>Dear {!Opportunity.OwnerFirstName},
+
+
+
+There is a gap in activity on this report from [date-date].
+
+
+As a friendly reminder, please remember that in order to provide high quality, proactive case management it is important to make contact with the Employee at least once every two weeks.
+
+
+
+Please reach out your supervisor if you would like to discuss further.
+
+
+Thank you</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

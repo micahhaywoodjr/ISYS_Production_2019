@@ -1,0 +1,42 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">{!Today}</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Nurse Case Manager:&nbsp; <strong>{!Case.OwnerFullName}</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Employee:&nbsp; <strong>{!Case.Employee__c}</strong>&nbsp;&nbsp;&nbsp;&nbsp; CMA Case Number:&nbsp;&nbsp; <strong>{!Case.CaseNumber}</strong></p><p><font face="arial" size="3">Account:</font><strong style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</strong><font face="arial"><b>{!Case.Account}</b></font></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Reason for Transfer:<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Authorized by:<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">~~~~~~~~~~~~~~~~&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Current Diagnosis:&nbsp; <strong>{!Case.Current_Diagnosis__c}</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Last Appt Date/Time:<strong>&nbsp;&nbsp;&nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">MD Name:<strong>&nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; "><strong>&nbsp;&nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Next Appt Date/Time:<strong>&nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">MD Name:<strong>&nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Next Appt not scheduled because<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">~~~~~~~~~~~~~~~~&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Pending Diagnostics and/or Surgeries:<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Treatment Plans:<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">Additional Comments:<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">&nbsp;</p>]]></td>
+</tr>
+</table>

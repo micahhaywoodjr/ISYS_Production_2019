@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Summary to HR - Kudos</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>Summary to HR - Kudos</name>
+    <style>freeForm</style>
+    <subject>Kudos Case# {!Case.CaseNumber} / CM: {!Case.EmployeeName__c} / Customer: {!Case.Contact}, {!Case.Account} / MedCase# {!Case.CaseNumberMedMgmt__c} {!Case.Employee_Case_Trakker__c}</subject>
+    <textOnly>Date Received:  {!Case.Date_Received__c}
+
+
+Kudos Detail: {!Case.Kudos_Detail__c}
+
+
+Case Manager Input:  {!Case.Case_Manager_Input__c}
+
+
+CM Supervisor Assessment/Recommendation:  {!Case.CMSupervisorAssessmentRecommendation__c}
+
+
+
+
+
+{!User.FirstName} {!User.LastName}
+{!User.CompanyName}
+{!User.Title}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

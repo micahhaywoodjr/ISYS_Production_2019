@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used for web-to-case responses</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>New Case Response (Web-to-Case)</name>
+    <style>freeForm</style>
+    <subject>ISYS Referral # {!Case.ISYS_File__c}</subject>
+    <textOnly>Dear {!Case.Contact},
+
+Your referral has successfully been submitted for {!Case.Claimant__c}.
+
+To further confirm our receipt of this referral, you will receive an email or fax confirmation of the Case Manager assigned to your file.  If you do not receive a confirmation within 24 hours (weekends and holidays excluded) please call our corporate office at (800) 992-8100.
+
+We appreciate your confidence in our staff of experienced professionals who are committed to provide you with high quality and timely services to assist in meeting your claims management needs.
+
+
+Sincerely,
+
+
+Your Customer Relations Representative</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

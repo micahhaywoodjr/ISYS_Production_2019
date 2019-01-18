@@ -1,0 +1,29 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp; <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Date: &nbsp;{!Today}</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Attention:&nbsp; {!Case.Employee__c}</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><strong><br>Claim Number:&nbsp;&nbsp; {!Case.Claim_Number__c}&nbsp;</strong><br><br></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Please provide your feedback on your recent experience with us:</p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Helvetica Neue, Arial, Helvetica, sans-serif"><span style="font-size: 18px;"><a href="https://www.getfeedback.com/r/LbPqhuLD?case={!Case.Id}&amp;employee={!URLENCODE(Case.Employee__c)}&amp;ClaimNumber={!URLENCODE(Case.Claim_Number__c)}">Click here to start the survey!</a></span></font></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p><p><br></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Account Rep:&nbsp;&nbsp;{!Case.CRR_Assigned__c}</p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Contact Number:&nbsp;&nbsp; {!Account.OwnerPhone}<br>Email:&nbsp;{!Account.OwnerEmail}</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><strong>Thank you,</strong></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><em>{!User.FirstName}&nbsp;&nbsp;{!User.LastName}</em></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!User.Title}</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!User.Email}</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">2601 Saturn Street Suite 300</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Brea CA&nbsp; 92821</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Corporate Office:&nbsp; (800) 992-8100</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Fax:&nbsp; (877) 992-0191</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="FONT-FAMILY: 'Arial','sans-serif'; COLOR: #365f91; FONT-SIZE: 10pt; mso-no-proof: yes; mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><font color="#000099" face="Verdana,Helvetica,Sans-Serif">ISYS is an organization where people with big minds, big hearts, lots of spirit and good character work wisely and cooperatively to achieve constructive outcomes on behalf of our customers and clients.</font></span></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="FONT-FAMILY: 'Arial','sans-serif'; COLOR: #365f91; FONT-SIZE: 10pt; mso-no-proof: yes; mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"></span><font color="#000099" size="2" face="Verdana,Helvetica,Sans-Serif">&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font color="#000099" size="2" face="Verdana,Helvetica,Sans-Serif">ISYS is a leading provider of Medical Case Management, Life Care Planning, Ergonomic Workplace Evaluations and Medical Seminars throughout California, Nevada and Arizona. Please visit our website at: isyscm.com <br></font>&nbsp;<br><font size="1" face="Times New Roman,Times,Serif">PRIVILEGED AND CONFIDENTIAL: <br>This communication, including attachments, is for the exclusive use of the intended addressee and may contain proprietary, confidential and/or privileged information. This communication is protected by the trade secret privilege, the Electronic Communications Privacy Act (ECPA). While various other legal protections apply, specifically, communications involving patient medical information and/or related materials is also protected by federal and state (HIPAA) regulations. Any use, copying, disclosure, dissemination or distribution of confidential and/or privileged information is not permitted and would also be very impolite. If you are not the intended recipient, I apologize for the error and request that you please notify me at your earliest convenience by return e-mail; and, that you delete this communication and destroy all copies. Thank you</font></p>]]></td>
+</tr>
+</table>

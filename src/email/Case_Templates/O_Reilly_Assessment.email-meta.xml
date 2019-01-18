@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Reminder for NCM to complete New Referral Assessment</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>X20th_Anniversary</letterhead>
+    <name>O&apos;Reilly Assessment</name>
+    <style>freeForm</style>
+    <subject>New Referral O&apos;Reilly ER Assessment Due {!Case.Employee_Case_Trakker__c}</subject>
+    <textOnly>Hello {!Case.OwnerFirstName},
+ 
+This is a courtesy notification regarding your new Gallagher Bassett referral on {!Case.Employee__c} for employer O&apos;Reilly Auto.  
+ 
+It is necessary that your professional assessment of the case is accurately reflected in your Initial report &quot;Projected Closure Date&quot; field.  Additionally, we need to be informed on both the anticipated P&amp;S date as well as the projected closure date.
+ 
+Please ensure you create and update your Initial Case Report promptly and email Diane with both dates upon completion of your assessment.
+ 
+As always, thank you for your attention to this immediate need.
+ 
+ 
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

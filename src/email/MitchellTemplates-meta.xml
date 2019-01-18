@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Mitchell Templates</name>
+    <publicFolderAccess>ReadWrite</publicFolderAccess>
+    <sharedTo>
+        <group>X01President</group>
+        <group>X02VicePresidents</group>
+        <group>X03ExecutiveManagers</group>
+        <group>X04SupervisorsLeads</group>
+        <group>X06SeniorCaseManager</group>
+    </sharedTo>
+</EmailFolder>
